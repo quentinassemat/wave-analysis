@@ -1,0 +1,15 @@
+package "Wave Demo"
+version "1"
+purpose "Digital Signature Scheme based on the Wave PSF"
+option "params_id" i "string identifying the main parameters, e.g. 128, 128p, ..." string
+option "print_params" p "show the parameters and exit" flag off
+option "key" k "key identifier, used to seed the PRNG" long optional default="0"
+option "message" m "message identifier, used to seed the PRNG" long optional default="0"
+option "number" n "number of signatures to produce" int optional default="1"
+option "verbose" v "verbose level, 0 is quiet, 1 is minimal" int optional default="1"
+option "filename" f "input filename" string optional
+option "check" c "check the signatures produced" flag off
+option "stat" s "give statistics on rejection rates" flag off
+option "no_save" N "do not save the signatures" flag off
+option "log" l "make a log file" flag off
+
