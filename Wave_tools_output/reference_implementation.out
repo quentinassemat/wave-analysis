@@ -1,0 +1,61 @@
+Target distribution : 0.003628 0.028332 0.028332 0.028332 0.220761 0.220761 0.028332 0.220761 0.220761
+Order 1 analysis
+Order 2 analysis
+Bernoulli/Chernoff test:
+alpha : 0.050000, eps : 0.013581
+Rejection among matched: 0 0 0 0 5 5 0 3 7
+Rejection among random/non matched: 2 2 2 2 5 4 2 5 8
+test 1 ... OK
+Rejection among matched: 0 0 0
+Rejection among random/non matched: 2 2 2
+test 2 ... OK
+Rejection among matched: 27 29
+Rejection among random/non matched: 35 31
+test 3 ... OK
+alpha : 0.500000, eps : 0.008326
+Rejection among matched: 0 0 0 0 177 191 0 171 179
+Rejection among random/non matched: 2 2 2 2 168 190 2 198 207
+test 4 ... OK
+Rejection among matched: 0 36 43
+Rejection among random/non matched: 2 42 46
+test 5 ... OK
+Rejection among matched: 372 375
+Rejection among random/non matched: 391 386
+test 6 ... OK
+alpha : 0.950000, eps : 0.006101
+Rejection among matched: 0 2 2 0 611 573 0 534 625
+Rejection among random/non matched: 2 3 3 4 605 579 2 598 566
+test 7 ... OK
+Rejection among matched: 0 239 255
+Rejection among random/non matched: 2 229 242
+test 8 ... OK
+Rejection among matched: 961 939
+Rejection among random/non matched: 898 881
+test 9 ... OK
+
+Khi-Deux test (for 10000 signatures):
+Rejection among matched: 212
+Rejection among random/non matched: 218
+test 10 ... OK
+Rejection among matched: 2106
+Rejection among random/non matched: 2142
+test 11 ... OK
+Rejection among matched: 4037
+Rejection among random/non matched: 4019
+test 12 ... OK
+
+Statistical distance test:
+Mean distance among matched pairs: kl : 0.000398    hell : 0.009671    stat : 0.018897
+Mean distance among random/non matched pairs: kl : -nan    hell : 0.009959    stat : 0.019487
+
+Supp distance among matched pairs  kl : 0.001477    hell : 0.019137    stat : 0.049835
+Supp distance pairs among random/non matched pairs: kl : 0.001677    hell : 0.583873    stat : 1.109699
+
+Independance test :
+Rejection : 0.000000
+Rejection rejet_matched : 0.000000
+Rejection rejet_rand : 0.000000
+Rejection rejet_matched_rand : 0.000000
+Tested pairs:
+matched:	(7134, 2623)	(3037, 8099)	(6899, 1625)
+random/not matched:	(7313, 7273)	(7754, 556)	(2392, 482)

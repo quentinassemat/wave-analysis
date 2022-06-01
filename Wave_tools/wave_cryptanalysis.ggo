@@ -1,0 +1,8 @@
+package "Wave cryptanalysis"
+version "1"
+purpose "Attack a biaised implementation of Wave signature scheme"
+option "params_id" i "string identifying the main parameters, e.g. 128, 128p, ..." string
+option "print_params" p "show the parameters and exit" flag off
+option "key" k "key identifier, used to seed the PRNG" long optional default="0"
+option "filename" f "input filename" string optional
+option "verbose" v "verbose level, 0 is quiet, 1 is minimal" int optional default="1"

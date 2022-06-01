@@ -1,0 +1,61 @@
+Target distribution : 0.003628 0.028332 0.028332 0.028332 0.220761 0.220761 0.028332 0.220761 0.220761
+Order 1 analysis
+Order 2 analysis
+Bernoulli/Chernoff test:
+alpha : 0.050000, eps : 0.013581
+Rejection among matched: 0 410 413 391 1961 1960 420 1958 1961
+Rejection among random/non matched: 0 113 131 179 152 144 147 133 111
+test 1 ... KO
+Rejection among matched: 0 1952 1949
+Rejection among random/non matched: 0 2326 2426
+test 2 ... KO
+Rejection among matched: 1976 1982
+Rejection among random/non matched: 931 894
+test 3 ... KO
+alpha : 0.500000, eps : 0.008326
+Rejection among matched: 0 1808 1808 1819 2080 2055 1818 2077 2060
+Rejection among random/non matched: 0 1475 1436 1454 843 875 1467 831 855
+test 4 ... OK
+Rejection among matched: 0 1978 1979
+Rejection among random/non matched: 0 2699 2699
+test 5 ... KO
+Rejection among matched: 2174 2168
+Rejection among random/non matched: 1959 1914
+test 6 ... OK
+alpha : 0.950000, eps : 0.006101
+Rejection among matched: 0 1930 1933 1933 2293 2294 1934 2307 2290
+Rejection among random/non matched: 1 1889 1888 1898 1442 1498 1892 1481 1454
+test 7 ... OK
+Rejection among matched: 0 2095 2102
+Rejection among random/non matched: 1 2888 2887
+test 8 ... OK
+Rejection among matched: 2461 2467
+Rejection among random/non matched: 2487 2426
+test 9 ... OK
+
+Khi-Deux test (for 10000 signatures):
+Rejection among matched: 2091
+Rejection among random/non matched: 3063
+test 10 ... KO
+Rejection among matched: 3145
+Rejection among random/non matched: 3638
+test 11 ... KO
+Rejection among matched: 4122
+Rejection among random/non matched: 4184
+test 12 ... KO
+
+Statistical distance test:
+Mean distance among matched pairs: kl : 0.051067    hell : 0.082048    stat : 0.216127
+Mean distance among random/non matched pairs: kl : 0.004086    hell : 0.028842    stat : 0.042961
+
+Supp distance among matched pairs  kl : 0.174166    hell : 0.217562    stat : 0.555101
+Supp distance pairs among random/non matched pairs: kl : 0.079032    hell : 0.141226    stat : 0.394899
+
+Independance test :
+Rejection : 0.000000
+Rejection rejet_matched : 0.000000
+Rejection rejet_rand : 0.000000
+Rejection rejet_matched_rand : 0.000000
+Tested pairs:
+matched:	(7134, 2623)	(3037, 8099)	(6899, 1625)
+random/not matched:	(2064, 2890)	(5338, 5976)	(7240, 4745)
