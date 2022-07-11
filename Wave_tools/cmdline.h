@@ -21,12 +21,12 @@ extern "C" {
 
 #ifndef CMDLINE_PARSER_PACKAGE
 /** @brief the program name (used for printing errors) */
-#define CMDLINE_PARSER_PACKAGE "Wave cryptanalysis"
+#define CMDLINE_PARSER_PACKAGE "Wave analysis"
 #endif
 
 #ifndef CMDLINE_PARSER_PACKAGE_NAME
 /** @brief the complete program name (used for help and version) */
-#define CMDLINE_PARSER_PACKAGE_NAME "Wave cryptanalysis"
+#define CMDLINE_PARSER_PACKAGE_NAME "Wave analysis"
 #endif
 
 #ifndef CMDLINE_PARSER_VERSION
@@ -52,6 +52,9 @@ struct gengetopt_args_info
   int verbose_arg;	/**< @brief verbose level, 0 is quiet, 1 is minimal (default='1').  */
   char * verbose_orig;	/**< @brief verbose level, 0 is quiet, 1 is minimal original value given at command line.  */
   const char *verbose_help; /**< @brief verbose level, 0 is quiet, 1 is minimal help description.  */
+  int full_test_arg;	/**< @brief  full khi-deux  (default='0').  */
+  char * full_test_orig;	/**< @brief  full khi-deux  original value given at command line.  */
+  const char *full_test_help; /**< @brief  full khi-deux  help description.  */
   
   unsigned int help_given ;	/**< @brief Whether help was given.  */
   unsigned int params_id_given ;	/**< @brief Whether params_id was given.  */
@@ -59,6 +62,7 @@ struct gengetopt_args_info
   unsigned int key_given ;	/**< @brief Whether key was given.  */
   unsigned int filename_given ;	/**< @brief Whether filename was given.  */
   unsigned int verbose_given ;	/**< @brief Whether verbose was given.  */
+  unsigned int full_test_given ;	/**< @brief Whether full_test was given.  */
 
 } ;
 
